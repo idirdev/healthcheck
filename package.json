@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/healthcheck",
+  "version": "1.0.0",
+  "description": "Monitor HTTP endpoint health with configurable checks, retries and history.",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/healthcheck.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "healthcheck": "./bin/cli.js"
+  }
+}
