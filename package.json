@@ -18,5 +18,9 @@
   },
   "bin": {
     "healthcheck": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/healthcheck",
+  "bugs": {
+    "url": "https://github.com/idirdev/healthcheck/issues"
   }
 }
